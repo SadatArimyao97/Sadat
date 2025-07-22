@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sadat Arimyao - Développeur Web & Mobile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1e293b, #0f172a);
+      color: white;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #94a3b8;
+    }
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      background-color: #1e293b;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+    h2 {
+      color: #38bdf8;
+    }
+    .btn-whatsapp {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn-whatsapp:hover {
+      background-color: #1da851;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background-color: #0f172a;
+    }
+    .social-icons img {
+      width: 30px;
+      margin: 0 10px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sadat Arimyao</h1>
+    <p>Développeur Web & Mobile</p>
+  </header>
+
+  <section>
+    <h2>À propos de moi</h2>
+    <p>
+      Je suis développeur passionné par la création de sites web modernes et d'applications mobiles performantes.
+      Je travaille avec les dernières technologies pour vous offrir des solutions digitales adaptées à vos besoins.
+    </p>
+
+    <h2>Mes services</h2>
+    <ul>
+      <li>Création de sites vitrine professionnels</li>
+      <li>Développement d’applications mobiles Android/iOS</li>
+      <li>Sites e-commerce avec paiement (Stripe, WhatsApp, Mobile Money)</li>
+      <li>Référencement SEO et optimisation de performances</li>
+    </ul>
+
+    <a class="btn-whatsapp" href="https://wa.me/22897056009" target="_blank">Me contacter sur WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>Suivez-moi :</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/sadat.arimyao" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+      </a>
+      <a href="https://x.com/sadat_arimyao" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="X (Twitter)" />
+      </a>
+      <a href="https://instagram.com/arimyaos" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+      </a>
+      <a href="https://tiktok.com/@sadat_arimyao" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" />
+      </a>
+    </div>
+    <p>&copy; 2025 Sadat Arimyao. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
